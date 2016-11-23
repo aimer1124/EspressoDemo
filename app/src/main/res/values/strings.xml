@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Test</string>
+    <string name="app_name">EspressoDemo</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
