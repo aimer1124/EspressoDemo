@@ -163,6 +163,7 @@ public class ExampleInstrumentedTest {
 - PageObject就是将页面的操作行为，进行单独`分离`和维护，统一`管理`
 - PageObject/测试数据/测试脚本的关系
 ![关系图](http://7xq729.com1.z0.glb.clouddn.com/pageObjectInE2E/%E5%85%B3%E7%B3%BB.png)
+- 完整代码: [https://github.com/aimer1124/EspressoDemo](https://github.com/aimer1124/EspressoDemo)
 
 ## 参考
 
