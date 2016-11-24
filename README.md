@@ -1,7 +1,7 @@
 # EspressoDemo
 Learn Espresso step by step.
 
-## [Step1-搭建模拟器环境](/Steps/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
+## [Step1-搭建模拟器环境](/Steps/Android模拟器环境搭建.md)
 
 - 安装Android Studio
 - 安装Genymotion
@@ -15,3 +15,8 @@ Learn Espresso step by step.
 - Espress测试编写、执行
 - 总结Espresso的执行步骤
 
+## [Step3-PageObject分离](/Steps/PageObject分离E2E测试.md)
+
+- PageObject讲解
+- 实践PageObject分离的效果
+- 总结PageObject的功效
