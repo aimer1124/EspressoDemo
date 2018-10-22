@@ -29,25 +29,25 @@
 - 下载模拟器
   - 进入本机安装的Genymotion
   - 登录`个人`账号，选择一个`模拟器`下载:Google Nexus 9 - 6.0.0
-  ![选择模拟器](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8.png)
+  ![选择模拟器](./img/androidStudioWithGenymotion/%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8.png)
   - 一个`模拟器`大概200M左右，等待下载完成即可
-  ![模拟器列表](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/Google%20Nexus%209%20-%206.0.0%20-%20API%2023%20-%201536x2048.png)
+  ![模拟器列表](./img/androidStudioWithGenymotion/Google%20Nexus%209%20-%206.0.0%20-%20API%2023%20-%201536x2048.png)
   - 点击`Devices`列表中的`Google Nexus 9 - 6.0.0`，点击`Start`，会启动`Adnroid`模拟器
-  ![启动成功模拟器](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/%E5%90%AF%E5%8A%A8%E6%A8%A1%E6%8B%9F%E5%99%A8.png)
+  ![启动成功模拟器](./img/androidStudioWithGenymotion/%E5%90%AF%E5%8A%A8%E6%A8%A1%E6%8B%9F%E5%99%A8.png)
 
 ## 集成
 
 - 安装Android Studio的Genymotion插件
   - `command+,` --> `plugins` --> `Browse Repositories`
   - 搜索`Genymotion`
-  ![安装Genymotion插件](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/GenymotionPlugins.png)
+  ![安装Genymotion插件](./img/androidStudioWithGenymotion/GenymotionPlugins.png)
   - 进行安装，结束后`重启`AndroidStudio
 - 关联Genymotion到AndroidStudio
   - 点击`ToolBar`的最后一个`Genymotion Device Manager`
   - 在弹出框中，添加`Genymotion`程序
-  ![关联Genymotion](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/%E5%85%B3%E8%81%94Genymotion%E5%88%B0AndroidStudio.png)
+  ![关联Genymotion](./img/androidStudioWithGenymotion/%E5%85%B3%E8%81%94Genymotion%E5%88%B0AndroidStudio.png)
   - 关联成功后，再次打开`Genymotion Device Manager`，会显示之前添加的`Google Nexus 9 - 6.0.0`
-  ![Genymotion模拟器列表](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/GenymotionDeviceManager.png)
+  ![Genymotion模拟器列表](./img/androidStudioWithGenymotion/GenymotionDeviceManager.png)
   - 点击`Start`，可直接启动Genymotion的模拟器
 
 > 至此，我们已经完成通过AndroidStudio来启动Android模拟器。下面再看下如何启动将自己的APP在模拟器中运行
@@ -57,12 +57,12 @@
 - 创建一个新的APP项目
   - 使用`Login Activity`模板创建一个APP项目
   - 名称为`MyApplication`
-  ![APP-UI](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/APP-UI.png)
+  ![APP-UI](./img/androidStudioWithGenymotion/APP-UI.png)
 - 在模拟器中运行
   - 点击`Run`时，会弹出选择运行的环境。如果列表为`空`，请查看是否模拟器`未启动成功`
-  ![APP运行环境](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/APPRunTarget.png)
+  ![APP运行环境](./img/androidStudioWithGenymotion/APPRunTarget.png)
   - 选择`Google Nexus 9 - 6.0.0` --> `OK`，在模拟器中运行`MyApplication`程序
-  ![](http://7xq729.com1.z0.glb.clouddn.com/androidStudioWithGenymotion/ShowAPPUI.png)
+  ![](./img/androidStudioWithGenymotion/ShowAPPUI.png)
 
 ## 总结
 

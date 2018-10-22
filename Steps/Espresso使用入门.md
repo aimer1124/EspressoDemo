@@ -8,7 +8,7 @@
 - 如何测试
   - 通过使用`Rule`来获取`Activity`
   - 针对`Activity`中的元素进行操作，进而达到测试的目的
-  ![Espresso工作原理](http://7xq729.com1.z0.glb.clouddn.com/espressoDemo/Espresso%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.png)
+  ![Espresso工作原理](./img/espressoDemo/Espresso%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.png)
 
 - 测试运行的基础组件
   - onView: 查找元素
@@ -24,7 +24,7 @@ onView(withId(R.id.my_view))            // withId(R.id.my_view) is a ViewMatcher
 ## 准备工作
 
 - SDK Tool: 安装`Android Support Repository`
-![SDKTool设置](http://7xq729.com1.z0.glb.clouddn.com/espressoDemo/SDKTool%E8%AE%BE%E7%BD%AE.png)
+![SDKTool设置](./img/espressoDemo/SDKTool%E8%AE%BE%E7%BD%AE.png)
 
 ## 实现Espresso代码
 
@@ -79,7 +79,7 @@ androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
   - 启动模拟器，如果模拟器环境有问题，参考[Android模拟器环境搭建](http://shiyuanjie.cn/2016/11/22/Android%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)
   - 执行测试
 
-  ![测试过程](http://7xq729.com1.z0.glb.clouddn.com/espressoDemo/%E6%B5%8B%E8%AF%95%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B.gif)
+  ![测试过程](./img/espressoDemo/%E6%B5%8B%E8%AF%95%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B.gif)
 
 - 在Android Studio中查看测试结果
 ```
@@ -87,7 +87,7 @@ androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
 2:10:42 PM Gradle build finished in 8s 988ms
 2:10:49 PM Tests Passed: 1 passed
 ```
-![测试结果](http://7xq729.com1.z0.glb.clouddn.com/espressoDemo/%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.png)
+![测试结果](./img/espressoDemo/%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C.png)
 
 > 至此，使用Espresso进行简单的测试已经完成
 
